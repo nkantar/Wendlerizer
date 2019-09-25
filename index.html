@@ -30,8 +30,8 @@
 
     <link rel="manifest" href="/manifest.json" />
 
-    <link rel="stylesheet" type="text/css" href="/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" type="text/css" href="./normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 
     <script src="https://unpkg.com/vue"></script>
   </head>
@@ -55,15 +55,23 @@
 
       <table>
         <tr>
-          <td><strong>90%</strong> of 1RM</td>
-          <td><strong>{{ fakeMax }}</strong></td>
+          <td></td>
+          <td></td>
+          <td><strong>-45#/2</strong></td>
+          <td><strong>-35#/2</strong></td>
         </tr>
-      </table>
 
-      <table>
+        <tr>
+          <td><strong>90%</strong> of 1RM</td>
+          <td class="number"><strong>{{ fakeMax }}</strong></td>
+          <td>{{ fakeMax.weight45 }}</td>
+          <td>{{ fakeMax.weight35 }}</td>
+        </tr>
         <tr v-for="percentage in percentages">
           <td><strong>{{ percentage.percent }}%</strong> of 90%</td>
-          <td><strong>{{ percentage.value }}</strong></td>
+          <td class="number"><strong>{{ percentage.value }}</strong></td>
+          <td class="number"><strong>{{ percentage.weight45 }}</strong></td>
+          <td class="number"><strong>{{ percentage.weight35 }}</strong></td>
         </tr>
       </table>
     </section>
@@ -80,6 +88,6 @@
         >.
       </p>
     </footer>
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

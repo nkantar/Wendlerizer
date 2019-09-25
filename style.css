@@ -18,9 +18,8 @@ header,
 section,
 footer {
   width: 90%;
-  max-width: 300px;
   margin: 25px auto;
-  font-family: 'Menlo', Monaco, 'Courier New', Courier, monospace;
+  font-family: "Menlo", Monaco, "Courier New", Courier, monospace;
 }
 
 footer {
@@ -48,5 +47,9 @@ td:first-child {
 }
 
 td:last-child {
+  text-align: right;
+}
+
+.number {
   text-align: right;
 }
