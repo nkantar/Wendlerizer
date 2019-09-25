@@ -1,0 +1,18 @@
+{
+  "short_name": "Wendlerizer",
+  "name": "Wendlerizer",
+  "description": "Easily calculate 90% of your 1RM for use in 5/3/1 and similar programs.",
+  "icons": [
+    {
+      "src": "favicon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "",
+  "scope": "https://wendlerizer.com/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#193441",
+  "background_color": "#193441"
+}

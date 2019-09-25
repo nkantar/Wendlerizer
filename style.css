@@ -1,0 +1,52 @@
+/* blue: 193441 */
+
+a:link,
+a:visited {
+  color: inherit;
+}
+a:hover,
+a:active {
+  color: #ffffff;
+  background-color: #193441;
+}
+
+body {
+  background: #ffffff;
+  color: #193441;
+}
+header,
+section,
+footer {
+  width: 90%;
+  max-width: 300px;
+  margin: 25px auto;
+  font-family: 'Menlo', Monaco, 'Courier New', Courier, monospace;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+input {
+  width: 75px;
+  background: #ffffff;
+  border: 1px solid #193441;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #193441;
+  padding: 5px;
+}
+
+td:first-child {
+  width: 60%;
+}
+
+td:last-child {
+  text-align: right;
+}
