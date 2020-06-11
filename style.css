@@ -14,6 +14,7 @@ body {
   background: #ffffff;
   color: #193441;
 }
+.notice,
 header,
 section,
 footer {
@@ -49,4 +50,15 @@ td:first-child {
 
 td:last-child {
   text-align: right;
+}
+
+.notice {
+  margin-top: 0;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+.notice span {
+  display: block;
+  padding: 15px;
 }
